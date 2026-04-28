@@ -1,7 +1,7 @@
 # Astro Calc 🚀
 
-[![Tests](https://github.com/martynalacha/astro-calc/actions/workflows/test.yml/badge.svg)](https://github.com/martynalacha/astro-calc/actions/workflows/test.yml)
-[![Docs](https://github.com/martynalacha/astro-calc/actions/workflows/docs.yml/badge.svg)](https://<USER>.github.io/astro-calc/)
+[![Tests](https://github.com/martynalacha/astro-calc/actions/workflows/test.yaml/badge.svg)](https://github.com/martynalacha/astro-calc/actions/workflows/test.yaml)
+[![Docs](https://github.com/martynalacha/astro-calc/actions/workflows/docs.yml/badge.svg)](https://martynalacha.github.io/astro-calc/)
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/martynalacha/astro-calc/blob/main/notebooks/demo.ipynb)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/martynalacha/astro-calc/main?filepath=notebooks%2Fdemo.ipynb)
 
