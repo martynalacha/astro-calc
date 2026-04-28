@@ -1,10 +1,7 @@
-# Configuration file for the Sphinx documentation builder.
-#
-# For the full list of built-in configuration values, see the documentation:
-# https://www.sphinx-doc.org/en/master/usage/configuration.html
+import os
+import sys
 
-# -- Project information -----------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
+sys.path.insert(0, os.path.abspath('../src'))
 
 project = 'astro-calc'
 copyright = '2026, Martyna'
@@ -13,7 +10,11 @@ author = 'Martyna'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+extensions = [
+    'sphinx.ext.autodoc',    # Automatyczne generowanie dokumentacji z docstringów
+    'sphinx.ext.napoleon',   # Obsługa ładnych opisów (format Google/NumPy)
+    'sphinx.ext.viewcode',   # Dodaje przycisk "[source]" przy funkcjach
+]
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
