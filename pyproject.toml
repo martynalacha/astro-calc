@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0", "setuptools-scm>=8.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "astro-calc"
+dynamic = ["version"]
+description = "Basic planetary physics calculator"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+dependencies = [
+    "pint>=0.20",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+docs = ["sphinx", "sphinx-rtd-theme"]
+
+[tool.setuptools_scm]
