@@ -11,6 +11,9 @@ astro-calc documentation
    :maxdepth: 2
    :caption: Contents:
 
+   api_reference
+   tutorial
+
 .. automodule:: astro_calc.physics
    :members:
    :undoc-members:
