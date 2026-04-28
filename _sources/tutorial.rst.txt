@@ -1,7 +1,7 @@
 Tutorial
 ========
 
-This guide demonstrates how to perform astrophysical calculations using our library.
+This guide demonstrates how to perform astrophysical calculations using this library.
 
 Prerequisites
 -------------
